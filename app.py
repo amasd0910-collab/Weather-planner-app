@@ -12,5 +12,5 @@ def get_weather(city, api_key):
     print(f"天氣: {data['weather'][0]['description']}")
 
 # 測試
-api_key = "0012ab17b3143d5072baab8df20cdbdb"
+api_key = "my api_key"
 get_weather("Taipei", api_key)
